@@ -17,7 +17,7 @@
 .wxParse-p {
     margin-top: 30rpx;
     font-size: 30rpx;
-    color: #333333;
+    color: #FFF;
     line-height: 40rpx;
 }
 
