@@ -1,5 +1,8 @@
 
-Hi，欢迎使用“酱茄小程序开源版 – 人人咖啡师”。
+## Hi，欢迎使用“酱茄小程序开源版 – Maxwell”。
+
+基于 [人人咖啡师](https://github.com/longwenjunjie/jiangqie_kafei) 二次开发  暗黑模式
+
 
 酱茄小程序开源版基于WordPress开源程序和WordPress REST API开发，实现WordPress网站数据与小程序数据同步共享，通过简单的配置就能搭建自己的小程序。
 
@@ -115,88 +118,4 @@ Hi，欢迎使用“酱茄小程序开源版 – 人人咖啡师”。
 13. 文章详情Tag功能；
 
 
-### 更新日志
-
-#### 2020.7.29 V1.1.0
-1. 支持分享到朋友圈；
-
-2. 支持音频和视频（受微信小程序本身限制，仅供参考）；
-
-3. 修复已知的bug；
-
-
-#### 2020.6.3 V1.0.8
-1. 加载框优化；
-
-2. 支持后台切换文章列表模式；
-
-3. 修复已知的bug；
-
-
-#### 2020.4.16 V1.0.5
-1. 新增打开第三方小程序功能；
-
-2. 新增文章详情显示该文隶属某分类目录；
-
-3. 新增文章摘要是否显示；
-
-4. 新增屏蔽指定分类文章功能；
-
-5. 文章详情新增悬浮返回按钮；
-
-6. wp插件兼容php7.1之前版本；
-
-7. 修复顶部Tab分类只显示10条信息问题；
-
-8. 其他已知细节。
-
-
-#### 2020.3.18 V1.0.2
-
-1. 我的页面新增登录入口；
-
-2. 修复部分设备文章段落出现滚动条问题；
-
-3. 修复评论无法登录问题；
-
-4. 优化幻灯片高度，分享可见分类标题；
-
-5. 优化文章详情页面行间距；
-
-6. 删除冗余的代码；
-
-7. 其他已知细节。
- 
-
-#### 2020.3.6 V1.0.1
-
-1. 修复小程序评论框高度问题；
-
-2. 修复登录框弹出问题；
-
-3. 插件代码规范命名问题；
-
-4. 修复插件因名称问题导致图片路径错误；
-
-5. 优化/pages/list/list不带参数按时间倒序显示；
-
-6. 其他已知细节。
-
-
-#### 2020.2.29 V1.0.0
-
-酱茄小程序开源版“人人咖啡师”发布！
-
-
-### 鸣谢
-1. https://github.com/icindy/wxParse
-
-2. https://github.com/dingyong0214/ThorUI
-
-3. https://github.com/DevinVinson/WordPress-Plugin-Boilerplate
-
-4. https://github.com/JoeSz/WordPress-Plugin-Boilerplate-Tutorial
-
-5. https://github.com/JoeSz/Exopite-Simple-Options-Framework
-
-6. https://cn.wordpress.org
+## 再次感谢 [人人咖啡师](https://github.com/longwenjunjie/jiangqie_kafei) 开源项目。
