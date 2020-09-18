@@ -69,8 +69,8 @@
     border-radius: 12rpx;
     padding: 20rpx 20rpx 20rpx 180rpx;
     overflow: hidden;
-    border: 1rpx solid #DDD;
-    margin-bottom: 10rpx;
+    border: 1rpx solid rgb(117, 116, 116);
+    margin-bottom: 20rpx;
 }
 
 .sortimage {

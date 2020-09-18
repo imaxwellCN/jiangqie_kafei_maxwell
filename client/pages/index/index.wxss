@@ -208,10 +208,11 @@
 /** jiangqie-news-block **/
 
 .jiangqie-news-type {
-    font-size: 28rpx;
+    font-size: 32rpx;
     font-weight: 500;
     color: #FFF;
     padding: 16rpx 0 0;
+    text-align: center;
 }
 
 .jiangqie-news-type text {
@@ -225,7 +226,7 @@
 .jiangqie-news-block {
     padding: 30rpx 0;
     min-height: 160rpx;
-    border-bottom: 1rpx solid #DDD;
+    border-bottom: 1rpx solid rgb(117, 116, 116);
     padding-right: 260rpx;
 }
 
@@ -441,12 +442,12 @@
 }
 
 .active {
-    border-bottom: 6rpx solid #FFF;
+    border-bottom: 6rpx solid rgb(117, 116, 116);
 }
 
 .active .tab-bar-title {
     color: #FFF !important;
-    font-size: 28rpx;
+    font-size: 32rpx;
     font-weight: bold;
 }
 

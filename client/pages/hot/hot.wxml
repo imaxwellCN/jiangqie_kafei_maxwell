@@ -16,8 +16,11 @@
 	</view>
 </scroll-view>
 
+<view>
+<!--
 <view style="background: url({{tl_background}}) repeat-y; background-position: -30rpx 0;">
 
+-->
 	<block wx:if="{{posts.length > 0}}">
 		<view class="jiangqie-timeline-view">
 

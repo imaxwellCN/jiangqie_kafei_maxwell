@@ -178,5 +178,5 @@ button.jiangqie-listtitle {
 
 .jiangqie-list-split {
     height: 5rpx;
-    background-color: #F3F3F3;
+    background-color: rgb(117, 116, 116);
 }
