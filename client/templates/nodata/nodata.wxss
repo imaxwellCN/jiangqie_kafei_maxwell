@@ -1,0 +1,29 @@
+/*
+ * 酱茄小程序开源版 v1.1.8
+ * Author: 酱茄
+ * Help document: https://www.jiangqie.com/ky
+ * github: https://github.com/longwenjunjie/jiangqie_kafei
+ * gitee: https://gitee.com/longwenjunj/jiangqie_kafei
+ * License：MIT
+ * Copyright ️ 2020 www.jiangqie.com All rights reserved.
+ */
+
+.none_tip {
+    padding: 80rpx;
+    text-align: center;
+}
+
+.none_tip image {
+    height: 200rpx;
+    width: 200rpx;
+}
+
+.none_tip_text {
+    padding: 20rpx;
+}
+
+.none_tip_text text {
+    font-size: 28rpx;
+    color: #FFF;
+    font-weight: 200;
+}
