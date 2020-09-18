@@ -116,6 +116,7 @@
     justify-content: space-between;
     flex-direction: column;
     margin-bottom: 10rpx;
+    color:#FFF;
 }
 
 .jiangqie-news-iconimg {
@@ -212,7 +213,6 @@
     font-weight: 500;
     color: #FFF;
     padding: 16rpx 0 0;
-    text-align: center;
 }
 
 .jiangqie-news-type text {
