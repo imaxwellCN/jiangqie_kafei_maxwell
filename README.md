@@ -3,6 +3,8 @@
 
 基于 [人人咖啡师](https://github.com/longwenjunjie/jiangqie_kafei) 二次开发  暗黑模式
 
+安装文档/常见问题：https://www.jiangqie.com/docs
+
 
 酱茄小程序开源版基于WordPress开源程序和WordPress REST API开发，实现WordPress网站数据与小程序数据同步共享，通过简单的配置就能搭建自己的小程序。
 
@@ -108,4 +110,4 @@
 13. 文章详情Tag功能；
 
 
-## 再次感谢 [人人咖啡师](https://github.com/longwenjunjie/jiangqie_kafei) 开源项目。
+## 再次感谢 [人人咖啡师](https://github.com/longwenjunjie/jiangqie_kafei) 的开源项目。
