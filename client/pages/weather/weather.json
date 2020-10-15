@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "天气预报",
+  "enablePullDownRefresh": true,
+  "usingComponents": {
+    "heartbeat": "/components/heartbeat/heartbeat"
+  }
+}

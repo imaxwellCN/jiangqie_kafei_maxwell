@@ -244,7 +244,7 @@ button {
 
 .jiangqie-page-laud {
     overflow: hidden;
-    border-bottom: 1rpx solid #EEE;
+    border-bottom: 0rpx solid #EEE;
 }
 
 .jiangqie-page-laud-contrl {

@@ -53,7 +53,7 @@
 			</view>
 		</view>
 	</view>
-	<view class="jiangqie-page-cmtbox">
+	<view class="jiangqie-page-cmtbox" wx:if="{{!show_comment_submit && post.switch_comment==1}}">
 		<view class="jiangqie-page-cmt-title">
 			评论<text>{{comment_count + comment_count_change}}</text>
 		</view>

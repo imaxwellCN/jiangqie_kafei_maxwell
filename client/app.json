@@ -9,7 +9,11 @@
         "pages/article/article",
         "pages/about/about",
         "pages/login/login",
-        "pages/viewhtml/viewhtml"
+        "pages/viewhtml/viewhtml",
+        "pages/citychoose/citychoose",
+        "pages/setting/setting",
+        "pages/systeminfo/systeminfo",
+        "pages/weather/weather"
     ],
     "window": {
         "backgroundTextStyle": "light",
@@ -41,6 +45,11 @@
                 "text": "热榜",
                 "iconPath": "images/tabbar/hot_gray.png",
                 "selectedIconPath": "images/tabbar/hot_active.png"
+            },{
+                "pagePath": "pages/weather/weather",
+                "text": "天气",
+                "iconPath": "images/weather_img/weather.png",
+                "selectedIconPath": "images/weather_img/weather_logo.png"
             },
             {
                 "pagePath": "pages/ucenter/ucenter",
@@ -56,6 +65,11 @@
         "uploadFile": 10000,
         "downloadFile": 10000
     },
+    "permission": {
+        "scope.userLocation": {
+          "desc": "定位以获取当前位置天气信息"
+        }
+      },
 
     "sitemapLocation": "sitemap.json"
 }

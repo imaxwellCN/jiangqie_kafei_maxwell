@@ -10,9 +10,7 @@
 		<view wx:for="{{topNav}}" wx:key="index" class="tab-bar-item {{currentTab==index ? 'active' : ''}}" data-current="{{index}}" catchtap="swichNav">
 			<text class="tab-bar-title">{{item.name}}</text>
 		</view>
-		<view class="tab-bar-item">
-			<text class="tab-bar-title">.</text>
-		</view>
+
 	</scroll-view>
 	<view class="tab-more" catchtap="handlerTabMoreClick">
 		<image src="../../images/tabmorered.png" mode="aspectFill"></image>
