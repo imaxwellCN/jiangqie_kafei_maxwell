@@ -1,6 +1,8 @@
 
 ## Hi，欢迎使用“酱茄小程序开源版 – Maxwell”。
 
+酱茄小程序开源版基于WordPress开源程序和WordPress REST API开发，实现WordPress网站数据与小程序数据同步共享，通过简单的配置就能搭建自己的小程序。
+
 基于 [人人咖啡师](https://github.com/longwenjunjie/jiangqie_kafei) 二次开发  暗黑模式
 
 
@@ -9,11 +11,10 @@
 
 ————————————【更新记录】————————————
 
-### 1、集成和风天气模块 [quietweather](https://github.com/myvin/quietweather)      --- 2020年10月15
+#### 1、集成和风天气模块 [quietweather](https://github.com/myvin/quietweather)      --- 2020年10月15
 
 
 
-酱茄小程序开源版基于WordPress开源程序和WordPress REST API开发，实现WordPress网站数据与小程序数据同步共享，通过简单的配置就能搭建自己的小程序。
 
 ————————————【联系/版权】————————————
 
