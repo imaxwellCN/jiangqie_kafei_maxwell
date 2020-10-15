@@ -3,6 +3,8 @@
 
 基于 [人人咖啡师](https://github.com/longwenjunjie/jiangqie_kafei) 二次开发  暗黑模式
 
+集成和风天气模块 [quietweather](https://github.com/myvin/quietweather)  2020年10月15
+
 安装文档/常见问题：https://www.jiangqie.com/docs
 
 
@@ -110,4 +112,6 @@
 13. 文章详情Tag功能；
 
 
-## 再次感谢 [人人咖啡师](https://github.com/longwenjunjie/jiangqie_kafei) 的开源项目。
+## 再次感谢下列开源项目的支持：
+[人人咖啡师](https://github.com/longwenjunjie/jiangqie_kafei) 
+[quietweather](https://github.com/myvin/quietweather)
