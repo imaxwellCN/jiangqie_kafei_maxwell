@@ -9,7 +9,7 @@
 
 ————————————【更新记录】————————————
 
-** 1、集成和风天气模块 [quietweather](https://github.com/myvin/quietweather)      --- 2020年10月15 **
+### 1、集成和风天气模块 [quietweather](https://github.com/myvin/quietweather)      --- 2020年10月15
 
 
 
@@ -37,10 +37,11 @@
 
 **小程序截图**
 
-![首页](https://github.com/imaxwellCN/jiangqie_kafei_maxwell/blob/master/screenshot/%E9%A6%96%E9%A1%B5.png)
-![分类](https://github.com/imaxwellCN/jiangqie_kafei_maxwell/blob/master/screenshot/%E5%88%86%E7%B1%BB.png)
-![热榜](https://github.com/imaxwellCN/jiangqie_kafei_maxwell/blob/master/screenshot/%E7%83%AD%E6%A6%9C.png)
-![我的](https://github.com/imaxwellCN/jiangqie_kafei_maxwell/blob/master/screenshot/%E6%88%91%E7%9A%84.png)
+![首页](https://github.com/imaxwellCN/jiangqie_kafei_maxwell/blob/master/screenshot/Home.png)
+![分类](https://github.com/imaxwellCN/jiangqie_kafei_maxwell/blob/master/screenshot/Type.png)
+![热榜](https://github.com/imaxwellCN/jiangqie_kafei_maxwell/blob/master/screenshot/Hot.png)
+![天气](https://github.com/imaxwellCN/jiangqie_kafei_maxwell/blob/master/screenshot/Weather.png)
+![我的](https://github.com/imaxwellCN/jiangqie_kafei_maxwell/blob/master/screenshot/My.png)
 
 **后台截图**
 
