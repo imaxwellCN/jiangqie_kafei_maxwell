@@ -8,7 +8,8 @@
 
 
 ————————————【更新记录】————————————
-1、集成和风天气模块 [quietweather](https://github.com/myvin/quietweather)      --- 2020年10月15
+
+** 1、集成和风天气模块 [quietweather](https://github.com/myvin/quietweather)      --- 2020年10月15 **
 
 
 
