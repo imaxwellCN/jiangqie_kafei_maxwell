@@ -10,10 +10,13 @@
 
 
 ————————————【更新记录】————————————
+### 2020年10月15
+#### 1、集成和风天气模块 [quietweather](https://github.com/myvin/quietweather)     
 
-#### 1、集成和风天气模块 [quietweather](https://github.com/myvin/quietweather)      --- 2020年10月15
-
-
+### 2020年10月15
+#### 1、集成首页分享页一言语录 [hitokoto](https://hitokoto.cn/)
+#### 2、添加插屏流量主模块                  
+            
 
 
 ————————————【联系/版权】————————————
