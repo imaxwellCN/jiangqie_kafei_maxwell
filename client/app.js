@@ -16,10 +16,8 @@ App({
 
     onLaunch: function () {
         Auth.checkSession();
-    },
-    onLaunch () {
         wx.cloud.init({
-          env: 'envid',
+          env: 'pro-ldts7',
           traceUser: true,
         })
         wx.getSystemInfo({
@@ -28,7 +26,7 @@ App({
             this.globalData.isIPhoneX = /iphonex/gi.test(res.model.replace(/\s+/, ''))
           },
         })
-      },
+    },
       globalData: {
         // 是否保持常亮，离开小程序失效
         keepscreenon:false,

@@ -21,6 +21,13 @@
 <view style="background: url({{tl_background}}) repeat-y; background-position: -30rpx 0;">
 
 -->
+
+	<!--打个小广告
+	<view class="adContainer">
+  	<ad unit-id="adunit-bbd3137c90e914eb"  ad-intervals="30"></ad>
+	</view>
+	-->
+
 	<block wx:if="{{posts.length > 0}}">
 		<view class="jiangqie-timeline-view">
 

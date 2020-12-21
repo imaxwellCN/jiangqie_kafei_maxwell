@@ -11,6 +11,7 @@
 const Constants = require('../../utils/constants');
 const Api = require('../../utils/api.js');
 const Rest = require('../../utils/rest');
+const hitokoto = require('../../utils/hitokoto.js')
 
 Page({
     data: {
@@ -76,6 +77,45 @@ Page({
 
         //加载文章
         this.loadPostLast(true);
+
+
+
+        // 在页面中定义插屏广告
+let interstitialAd = null
+
+// 在页面onLoad回调事件中创建插屏广告实例
+if (wx.createInterstitialAd) {
+  interstitialAd = wx.createInterstitialAd({
+    adUnitId: 'adunit-bc0bdd6b2cfdfcf1'
+  })
+  interstitialAd.onLoad(() => {})
+  interstitialAd.onError((err) => {})
+  interstitialAd.onClose(() => {})
+}
+
+// 在适合的场景显示插屏广告
+if (interstitialAd) {
+  interstitialAd.show().catch((err) => {
+    console.error(err)
+  })
+}
+
+
+
+
+         // hitokoto 一言
+         hitokoto.load(result => {
+        console.log("https://v1.hitokoto.cn/ 获取内容:" + result.hitokoto)
+        // 下面是处理逻辑示例
+        this.setData({
+            hitokoto: result.hitokoto
+        });
+      });
+
+
+
+
+
     },
 
     onReachBottom: function () {
@@ -94,9 +134,10 @@ Page({
         }
     },
 
+    //首页分析海报配置
     onShareAppMessage: function () {
         return {
-            title: getApp().appName,
+            title: this.data.hitokoto,//getApp().appName,
             path: 'pages/index/index',
         }
     },

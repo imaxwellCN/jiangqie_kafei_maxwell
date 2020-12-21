@@ -61,6 +61,12 @@
 						</view>
 					</view>
 				</view>
+				<!--打个小广告
+				<view class="adContainer">
+  				<ad unit-id="adunit-3aedc58140c50d40" ad-intervals="30"></ad>
+				</view>
+				-->
+
 
 				<!--新闻列表——热门-->
 				<view wx:if="{{hot && hot.length>0}}" class="jiangqie-news-view jiangqie-news-hot">

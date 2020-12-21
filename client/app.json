@@ -70,6 +70,7 @@
           "desc": "定位以获取当前位置天气信息"
         }
       },
+      "cloud": true,
 
     "sitemapLocation": "sitemap.json"
 }

@@ -23,6 +23,14 @@
 		<view class="jiangqie-page-body-end">
 			<text>- The End -</text>
 		</view>
+
+			<!--打个小广告
+		<view class="adContainer">
+  		<ad unit-id="adunit-db091673e9cd7904"  ad-intervals="30"></ad>
+		</view>
+		-->
+
+
 		<view class="jiangqie-page-body-tag">
 			<text wx:for="{{post.tags}}" wx:key="id" data-id="{{item.id}}" data-tag="{{item.name}}" catchtap="handlerTagClick">{{item.name}}</text>
 		</view>

@@ -308,7 +308,7 @@ Page({
     })
     .then(res => {
       let data = res.result.data
-      if (data) {
+      if (data[0] != undefined ) {
         callback && callback(data[0].message)
       }
     })
@@ -351,6 +351,27 @@ Page({
   },
   onLoad () {
     this.reloadPage()
+
+            // 在页面中定义插屏广告
+let interstitialAd = null
+
+// 在页面onLoad回调事件中创建插屏广告实例
+if (wx.createInterstitialAd) {
+  interstitialAd = wx.createInterstitialAd({
+    adUnitId: 'adunit-bc0bdd6b2cfdfcf1'
+  })
+  interstitialAd.onLoad(() => {})
+  interstitialAd.onError((err) => {})
+  interstitialAd.onClose(() => {})
+}
+
+// 在适合的场景显示插屏广告
+if (interstitialAd) {
+  interstitialAd.show().catch((err) => {
+    console.error(err)
+  })
+}
+
   },
   reloadPage () {
     this.setBcgImg()
@@ -431,7 +452,7 @@ Page({
     let shareInfo = this.data.shareInfo
     return {
       title: shareInfo.title || '天气预报',
-      path: shareInfo.path || '/pages/index/index',
+      path: shareInfo.path || '/pages/weather/weather',
       imageUrl: shareInfo.imageUrl,
     }
   },

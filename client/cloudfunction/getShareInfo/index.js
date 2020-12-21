@@ -5,5 +5,6 @@ exports.main = async (event, context) => {
     title: '',
     path: '',
     imageUrl: '',
+    message: ''
   }
 }

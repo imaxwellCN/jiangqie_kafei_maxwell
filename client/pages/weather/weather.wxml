@@ -57,6 +57,12 @@
         </view>
       </view>
     </view>
+    	<!--打个小广告
+  	<view class="adContainer">
+  	  <ad unit-id="adunit-78cc2a4fa08fd18b"  ad-intervals="30"></ad>
+  	</view>
+    -->
+
     <view class='details'>
       <view class='detail' wx:for='{{detailsDic.key}}' wx:key='{{index}}'>
         <view>{{detailsDic.val[item]}}</view>
