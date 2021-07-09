@@ -1,7 +1,0 @@
-{
-    "navigationBarTitleText": "登录",
-    "navigationBarBackgroundColor": "#000000",
-    "usingComponents": {
-        "tui-loading": "../../components/loading/loading"
-    }
-}
